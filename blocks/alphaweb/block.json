@@ -1,0 +1,14 @@
+{
+  "name": "acf/alphablock",
+  "title": "Alpha Block",
+  "description": "A custom block from Dapo Obembe.",
+  "style": ["file:./alpha.css"],
+  "category": "media",
+  "icon": "list-view",
+  "keywords": ["alphaweb", "travel"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "alpha.php"
+  },
+  "align": "full"
+}

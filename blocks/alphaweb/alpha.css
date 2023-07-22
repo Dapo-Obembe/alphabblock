@@ -1,0 +1,84 @@
+.alpha-block {
+  border: 2px solid green;
+  border-radius: 0.5rem;
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: 20px 200px 1fr auto;
+  align-items: center;
+}
+
+.alpha-block span.day {
+  display: inline-block;
+  text-align: center;
+  padding: 20px 0 0 0;
+  background: green;
+  color: white;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-left: -30px;
+}
+
+.alpha-block .img {
+  display: block;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+.alpha-block .img img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.alpha-block .content-info {
+  font-weight: 100;
+}
+.alpha-block .content-info p {
+  padding: 0;
+  margin: 0;
+}
+
+.alpha-block .content-info .title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.alpha-block .services-info {
+  font-size: 0.85rem;
+  margin: 0;
+  border-left: 1px solid green;
+  padding: 0 30px 30px 30px;
+}
+
+.alpha-block .services-info p {
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
+.alpha-block .services-info > p > span {
+  display: flex;
+  align-self: center;
+  width: 8px;
+  height: 8px;
+  background: lightgray;
+  border-radius: 100%;
+  margin-left: 20px;
+  border: 1px solid transparent;
+  position: relative;
+}
+.alpha-block .services-info > p > span:after {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  left: -6px;
+  bottom: -6px;
+  content: " ";
+  border: 1px solid green;
+  border-radius: 100%;
+}
+
+.alpha-block .services-info > p > span.available {
+  background-color: green;
+}
