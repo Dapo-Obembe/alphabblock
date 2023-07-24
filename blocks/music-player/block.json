@@ -1,0 +1,14 @@
+{
+  "name": "acf/musicblock",
+  "title": "Music Player",
+  "description": "Add fancy audio player to your music post",
+  "style": ["file:./style.css"],
+  "category": "media",
+  "icon": "media-audio",
+  "keywords": ["audio", "music"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "music-player.php"
+  },
+  "align": "full"
+}
